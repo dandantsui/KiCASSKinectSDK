@@ -9,11 +9,12 @@
 
 
 # Usage
-- Connect Kinect to USB 3.0 port before running `KiCASS2.exe`
+- Connect Kinect v2 to USB 3.0 port before running `KiCASS2.exe`
 
 
 # System Requirements
 Minimum Required Specs *tested*:
+- Kinect V2 (Xbox One/Windows versions ok)
 - Windows 10
 - Intel i3 4th Generation
 - USB 3.0 port
