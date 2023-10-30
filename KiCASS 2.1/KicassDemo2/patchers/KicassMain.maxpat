@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -304.0, -1065.0, 1628.0, 1031.0 ],
+		"rect" : [ 34.0, 105.0, 1293.0, 973.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 16.0,
@@ -41,12 +41,101 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontsize" : 10.0,
+					"id" : "obj-54",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 293.899999999999977, 381.0, 52.0, 18.0 ],
+					"text" : "joint",
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 10.0,
+					"id" : "obj-53",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 240.5, 381.0, 52.0, 18.0 ],
+					"text" : "bodyNum",
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 14.0,
+					"format" : 6,
+					"id" : "obj-48",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 305.799999999999955, 526.0, 77.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 14.0,
+					"format" : 6,
+					"id" : "obj-49",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 281.399999999999977, 495.0, 77.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 14.0,
+					"format" : 6,
+					"id" : "obj-50",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 257.0, 463.0, 77.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-47",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "jointpickerBP.maxpat",
+					"numinlets" : 3,
+					"numoutlets" : 6,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "float", "float", "float", "", "", "" ],
+					"patching_rect" : [ 257.0, 401.0, 141.0, 33.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-40",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 16.0, 767.0, 258.0, 24.0 ],
-					"text" : "10/26/2023",
+					"text" : "10/30/2023",
 					"textcolor" : [ 0.603921568627451, 0.047058823529412, 0.047058823529412, 1.0 ]
 				}
 
@@ -69,7 +158,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1628.0, 1005.0 ],
+						"rect" : [ 0.0, 26.0, 1293.0, 921.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 16.0,
@@ -288,7 +377,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1628.0, 1005.0 ],
+						"rect" : [ 0.0, 26.0, 1293.0, 921.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 16.0,
@@ -2080,7 +2169,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1628.0, 1005.0 ],
+						"rect" : [ 0.0, 26.0, 1293.0, 921.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 16.0,
@@ -2833,7 +2922,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1628.0, 1005.0 ],
+						"rect" : [ 0.0, 26.0, 1293.0, 921.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 16.0,
@@ -6233,7 +6322,7 @@
 									"patching_rect" : [ 628.333374000000049, 76.899993999999992, 152.0, 28.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 17.0, 566.003418000000011, 160.0, 32.0 ],
-									"text" : "192.168.86.255",
+									"text" : "128.189.151.255",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -6362,7 +6451,7 @@
 									"patching_rect" : [ 601.333374000000049, 2.166672000000005, 156.0, 29.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 17.0, 438.003356999999994, 160.0, 32.0 ],
-									"text" : "192.168.86.237",
+									"text" : "128.189.150.121",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -8714,6 +8803,35 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"id" : "obj-51",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 247.5, 592.0, 173.0, 42.0 ],
+					"text" : "jointPicker bPatcher\n",
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"grad1" : [ 0.984313725490196, 0.603921568627451, 0.007843137254902, 0.55 ],
+					"grad2" : [ 0.756862745098039, 0.32156862745098, 0.027450980392157, 1.0 ],
+					"id" : "obj-52",
+					"maxclass" : "panel",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 240.5, 372.0, 202.0, 271.0 ],
+					"proportion" : 0.5
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -8868,6 +8986,27 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"source" : [ "obj-47", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-49", 0 ],
+					"source" : [ "obj-47", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-50", 0 ],
+					"source" : [ "obj-47", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-7", 1 ],
 					"order" : 0,
 					"source" : [ "obj-6", 0 ]
@@ -8898,84 +9037,84 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Display_Data_KiCASS.maxpat",
-				"bootpath" : "~/Desktop/KicassDemo2/patchers",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "KHAccel.maxpat",
-				"bootpath" : "~/Desktop/KicassDemo2/patchers",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "KHBangDelay.maxpat",
-				"bootpath" : "~/Desktop/KicassDemo2/patchers",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "KHBangDelayRev.maxpat",
-				"bootpath" : "~/Desktop/KicassDemo2/patchers",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "KHCaliScale.maxpat",
-				"bootpath" : "~/Desktop/KicassDemo2/patchers",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "KHLimitScale.maxpat",
-				"bootpath" : "~/Desktop/KicassDemo2/patchers",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "KHSmoother.maxpat",
-				"bootpath" : "~/Desktop/KicassDemo2/patchers",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "KHThreshold.maxpat",
-				"bootpath" : "~/Desktop/KicassDemo2/patchers",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "KHThresholdRev.maxpat",
-				"bootpath" : "~/Desktop/KicassDemo2/patchers",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MRaverageABS.maxpat",
-				"bootpath" : "~/Desktop/KicassDemo2/patchers",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MRcircBuff.maxpat",
-				"bootpath" : "~/Desktop/KicassDemo2/patchers",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MRrC.maxpat",
-				"bootpath" : "~/Desktop/KicassDemo2/patchers",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -8986,210 +9125,217 @@
 			}
 , 			{
 				"name" : "Red.png",
-				"bootpath" : "~/Desktop/KicassDemo2/media",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "WetDrySlider4.png",
-				"bootpath" : "~/Desktop/KicassDemo2/media",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bControl.maxpat",
-				"bootpath" : "~/Desktop/KicassDemo2/patchers",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bodyBitmapper1.maxpat",
-				"bootpath" : "~/Desktop/KicassDemo2/patchers",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bodyBitmapper2.maxpat",
-				"bootpath" : "~/Desktop/KicassDemo2/patchers",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "delayB.json",
-				"bootpath" : "~/Desktop/KicassDemo2/data",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "delayBP.maxpat",
-				"bootpath" : "~/Desktop/KicassDemo2/patchers",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "delayInfo.maxpat",
-				"bootpath" : "~/Desktop/KicassDemo2/patchers",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "delayKH.maxpat",
-				"bootpath" : "~/Desktop/KicassDemo2/patchers",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dtGetIP.maxpat",
-				"bootpath" : "~/Desktop/KicassDemo2/patchers",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gainScale.maxpat",
-				"bootpath" : "~/Desktop/KicassDemo2/patchers",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "helpdetails.js",
-				"bootpath" : "~/Desktop/KicassDemo2/code",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "info.png",
-				"bootpath" : "~/Desktop/KicassDemo2/media",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "jointpickerBP.maxpat",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "largeGreen.png",
-				"bootpath" : "~/Desktop/KicassDemo2/media",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lineKH.maxpat",
-				"bootpath" : "~/Desktop/KicassDemo2/patchers",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mixKH.abs.maxpat",
-				"bootpath" : "~/Desktop/KicassDemo2/patchers",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "moreAboutDataStructures.maxpat",
-				"bootpath" : "~/Desktop/KicassDemo2/patchers",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "multiNameNonZero.maxpat",
-				"bootpath" : "~/Desktop/KicassDemo2/patchers",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "multiName_.maxpat",
-				"bootpath" : "~/Desktop/KicassDemo2/patchers",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "muter.maxpat",
-				"bootpath" : "~/Desktop/KicassDemo2/patchers",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nTbp_.maxpat",
-				"bootpath" : "~/Desktop/KicassDemo2/patchers",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ol.pngknob.js",
-				"bootpath" : "~/Desktop/KicassDemo2/code",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "parsePan.maxpat",
-				"bootpath" : "~/Desktop/KicassDemo2/patchers",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "powerButton03.png",
-				"bootpath" : "~/Desktop/KicassDemo2/media",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "read01.png",
-				"bootpath" : "~/Desktop/KicassDemo2/media",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sampleUnitPolyM.maxpat",
-				"bootpath" : "~/Desktop/KicassDemo2/patchers",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "samplerNewInfo.maxpat",
-				"bootpath" : "~/Desktop/KicassDemo2/patchers",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "samplerPolyM.maxpat",
-				"bootpath" : "~/Desktop/KicassDemo2/patchers",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "samplerPolyMBP.maxpat",
-				"bootpath" : "~/Desktop/KicassDemo2/patchers",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "samplerUnitPM.maxpat",
-				"bootpath" : "~/Desktop/KicassDemo2/patchers",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -9200,42 +9346,42 @@
 			}
 , 			{
 				"name" : "sliderKnob3.png",
-				"bootpath" : "~/Desktop/KicassDemo2/media",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sliderTrack6.png",
-				"bootpath" : "~/Desktop/KicassDemo2/media",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spiral01.png",
-				"bootpath" : "~/Desktop/KicassDemo2/media",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "transratio.maxpat",
-				"bootpath" : "~/Desktop/KicassDemo2/patchers",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wetDryKnob2.png",
-				"bootpath" : "~/Desktop/KicassDemo2/media",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "write01.png",
-				"bootpath" : "~/Desktop/KicassDemo2/media",
+				"bootpath" : "~/Documents/GitHub/KiCASSKinectSDK/KiCASS 2.1/KicassDemo2/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
