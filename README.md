@@ -21,3 +21,19 @@ Minimum Required Specs *tested*:
 
 Recommended Specs
 - Intel i7 4th Generation or higher
+
+# Some pieces using KiCASS technology
+- Happy Accidents, for interactive music/video and two dancers 
+  - https://youtu.be/4Yh2UWetu2U?feature=shared
+
+- Tsunami, for interactive audio/video and dance 
+  - https://youtu.be/FaYNy47KcIU?feature=shared
+
+- Samantha, interactive audio/video and two dancers
+  - https://youtu.be/t2n68dS_uKc?feature=shared
+
+- Mia Harris: Pink Trombone and KiCASS gesture tracking
+  - https://youtu.be/V0FOslMTjbk?feature=shared
+
+- More Cheap Loops
+  - https://youtu.be/Av0RRXZryTw?feature=shared
